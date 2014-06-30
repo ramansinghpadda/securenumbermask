@@ -1,3 +1,12 @@
+/**
+ * Securenumbermask Jquery Plugin
+ * http://gitgub.com/ramansinghpadda/securenumbermask
+ * Copyright (c) 2014 Raman Singh Padda 
+ *
+ * For the full changelog please visit: 
+ * http://gitgub.com/ramansinghpadda/securenumbermask
+ */
+
 (function($) {
 
     $.fn.securenumbermask = function(options) {
