@@ -9,8 +9,6 @@ A simple plugin to hide password,credit card numbers & mask other security field
 Easy to use   
 
 Example code : 
-
-
 <html>
  <head>
     
@@ -21,10 +19,10 @@ Example code :
     </head>
     
     <body>
-    <input TYPE="text" id="inputtext" value="123"/>
-      <input TYPE="text" id="inputtext2" value="1234"/>
-        <input TYPE="text" id="inputtext3" value="12345"/>
-          <input TYPE="text" id="inputtext4" value="123456"/>
+    <input TYPE="text" id="inputtext" name="test1" value="123"/>
+      <input TYPE="text" id="inputtext2"   name="test2" value="1234"/>
+        <input TYPE="text" id="inputtext3"  name="test3" value="12345"/>
+          <input TYPE="text" id="inputtext4"  name="test4" value="123456"/>
     </body>
     <script>
    $(document).ready(function(){

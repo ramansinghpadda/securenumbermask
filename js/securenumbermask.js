@@ -8,12 +8,14 @@
         
         this.each(function () {
             var refrence=$(this).prop('id')+'-original';
-             
+            var myname=$(this).attr('name');
+            $(this).removeAttr('name');
             $(this).attr('input-original',refrence);
             $('<span><span><span><span><span><input id="'+refrence+'" type="hidden" value="'+$(this).val()+'"/></span></span></span></span></span>').insertAfter($(this));
                $(this).val(Array(($('#'+refrence).val().length)+1).join(options.mask));
                $(this).val($(this).val().substring(0,options.maxlength));
               $('#'+refrence).val($('#'+refrence).val().substring(0,options.maxlength));
+              $('#'+refrence).attr('name',myname);
               
         });
         
