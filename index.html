@@ -27,7 +27,6 @@ Created By <a href="http://github.com/ramansinghpadda">Raman Singh Padda</a></h3
     </script>
     <code>
      
-     
      securenumbermask jquery plugin
 
 A simple plugin to hide password,credit card numbers & mask other security fields
@@ -38,17 +37,17 @@ Example code :
 
 Test raaccordion
 
-<body>
+
 <input TYPE="text" id="inputtext" name="test1" value="123"/>
   <input TYPE="text" id="inputtext2"   name="test2" value="1234"/>
     <input TYPE="text" id="inputtext3"  name="test3" value="12345"/>
       <input TYPE="text" id="inputtext4"  name="test4" value="123456"/>
-</body>
-<script>
 
-$(document).ready(function(){ $('#inputtext').securenumbermask({mask:'*',maxlength:2}); 
+
+
+$(document).ready(function(){ $('#inputtext').securenumbermask({mask:'*',maxlength:2});
 $('#inputtext2').securenumbermask({mask:'&',maxlength:15});
-$('#inputtext3').securenumbermask(); 
+$('#inputtext3').securenumbermask();
 $('#inputtext4').securenumbermask(); }); 
     </code>
 </html>
